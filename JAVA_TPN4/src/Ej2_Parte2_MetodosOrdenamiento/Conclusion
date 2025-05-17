@@ -1,0 +1,8 @@
+En la mayoria de los casos de ejecucion del codigo se presentó
+que el metodo de Bubble sort presentaba tiempos de ejecución mucho mas altos
+a medida que aumenta el tamaño del arreglo. Por el contrario el metodo
+Arrays sort mantiene tiempos de ejecución bajos incluso con los arreglos
+grandes.
+Por lo que podría concluir que bubble sort es mucho mas útil con arreglos
+pequeños, mientras que arrays sort es mucho más útil en el caso de trabajar
+con arreglos más grandes.
