@@ -25,12 +25,8 @@ public class Main {
         // El usuario ingresa la palabra a buscar
         System.out.print("\nIngrese una palabra para buscarla en el arreglo: ");
         String palabra = input.nextLine();
-        int posPalabra = arreglo1.buscarEnArray(palabra);
+        arreglo1.buscarEnArray(palabra);
 
-        if (posPalabra >= 0) {
-            System.out.println("La palabra '" + palabra + "' se encuentra en la posición [" + posPalabra + "] del arreglo.");
-        } else {
-            System.out.println("La palabra '" + palabra + "' no se encuentra en el arreglo.");
-        }
+
     }
 }

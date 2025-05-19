@@ -21,13 +21,17 @@ class GeneradorArreglo {
         System.out.println(); // salto de línea
     }
 
-    public int buscarEnArray(String palabra) {
+    public void buscarEnArray(String palabra) {
         String palabraBuscar = palabra.toLowerCase(Locale.ROOT);
         for (int i = 0; i < arr.length; i++) {
             if (arr[i].toLowerCase().contains(palabraBuscar)) {
-                return i;
+                System.out.println("La cadena "+palabraBuscar+" se encuentra en el indice ["+i+"]: "+arr[i]+"");
+            }else{
+                System.out.println("No se encontró la cadena");
             }
+
+
         }
-        return -1;
+
     }
 }
